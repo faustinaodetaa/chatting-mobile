@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1040216458945",
+    "firebase_url": "https://foz-music-store-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "foz-music-store",
+    "storage_bucket": "foz-music-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040216458945:android:e19b5c510d69c22a2e7640",
+        "android_client_info": {
+          "package_name": "com.example.fozmusicstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040216458945-p6al9ufeam828cs7qdo6kejc560k3idq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaVwf1mryymcWaKveIwDZmf8EmV_3gJ_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040216458945-p6al9ufeam828cs7qdo6kejc560k3idq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

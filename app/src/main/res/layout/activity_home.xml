@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="24dp"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:textSize="30sp"
+        android:letterSpacing="0.1"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:text="Welcome to Foz Music Store"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foz Music Store is a retail business that sells musical instruments and related equipment and accessories. Foz Music Store also provides group chat feature for the users to chat with other music enthusiast."
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.1"
+        android:text="OUR PRODUCTS"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/piano">
+
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:letterSpacing="0.1"
+        android:text="PIANO"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/drum"
+        android:layout_gravity="center"
+        android:layout_marginTop="-135dp">
+
+    </ImageView>
+
+    <TextView
+        android:textSize="18sp"
+        android:letterSpacing="0.1"
+        android:textColor="@color/black"
+        android:text="DRUM"
+        android:layout_marginTop="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/violin"
+        android:layout_gravity="center"
+        android:layout_marginTop="-135dp"
+        android:layout_marginLeft="130dp">
+
+    </ImageView>
+
+    <TextView
+        android:textSize="18sp"
+        android:letterSpacing="0.1"
+        android:textColor="@color/black"
+        android:text="VIOLIN"
+        android:layout_marginTop="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"/>
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GROUP CHATS"
+        android:textSize="20dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_chat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/chat"
+        android:layout_marginLeft="10dp"
+        ></ImageButton>
+
+
+
+    <TextView
+        android:layout_marginTop="-45dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Start chatting with other music enthusiast to explore more about your curiosity!"
+        />
+
+    <Button
+        android:id="@+id/btn_log_out"
+        android:text="Log Out"
+        android:layout_marginTop="28dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/purple_200"
+
+        />
+
+
+</LinearLayout>
